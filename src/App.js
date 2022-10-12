@@ -24,6 +24,9 @@ function App() {
             <Route path="/:type?">
               <HomePage />
             </Route>
+            <Route path="/pet-details-not-found">
+              <PetDetailsNotFound />
+            </Route>
           </Switch>
         </Router>
       </div>
