@@ -21,11 +21,12 @@ function App() {
               <PetDetailsPage />
             </Route>
 
-            <Route path="/:type?">
-              <HomePage />
-            </Route>
             <Route path="/pet-details-not-found">
               <PetDetailsNotFound />
+            </Route>
+
+            <Route path="/:type?">
+              <HomePage />
             </Route>
           </Switch>
         </Router>
